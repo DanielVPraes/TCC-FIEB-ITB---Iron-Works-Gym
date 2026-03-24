@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    margin: 0;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background: url('../../assets/roxo.jpg');
+    overflow: hidden; /* Oculta o que está fora do contêiner */
+    position: relative; /* Para que os filhos sejam posicionados em relação a ele */
+  }
+
+  /*-------------------------------------------------------------------------------*/
+
+  .Equipe {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 42%;
+    text-align: center;
+}
+

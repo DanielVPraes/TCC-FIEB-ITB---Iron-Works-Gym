@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container-equipamento {
+    flex: 1;
+    padding: 20px;
+    background: url('../../assets/roxo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.equipamento-bordinha {
+    background-color: #2D1E36;
+    color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.equipamento-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-equipamento {
+    background-color: #4A1259;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-equipamento:hover {
+    background-color: #4a2f55;
+}

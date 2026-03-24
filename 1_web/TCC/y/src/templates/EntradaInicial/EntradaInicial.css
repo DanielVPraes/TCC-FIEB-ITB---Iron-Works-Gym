@@ -1,0 +1,81 @@
+#circle {
+  background-color: rgb(137, 38, 173);
+  border-radius: 350px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -45%;
+  z-index: -1;
+}
+
+#contentCircle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  gap: 7vh;
+  right: 20%;
+  top: 38%;
+  z-index: 1;
+}
+
+#bemVindoADM {
+  font-size: 50px;
+  color: white;
+  font-weight: normal;
+}
+
+#btnLogin {
+  text-decoration: none;
+  background-color: rgb(100, 10, 131);
+  border-radius: 150px;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  width: 250px;
+}
+
+#btnLogin:hover {
+  background-color: rgb(181, 79, 237);
+  transition: 0.2s;
+}
+
+#contentRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+
+#divLogo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -7%;
+}
+
+#logo {
+  margin-left: 12vw;
+  width: 600px;
+  height: 600px;
+}
+
+#linkSobreNos {
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+#linkSobreNos:hover {
+  color: rgb(192, 137, 222);
+  transition: 0.2s;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-login{
+    background-color:transparent;
+}
+
+.corpo-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../assets/roxo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: -4%;
+}
+
+.logo-login{
+    width: 300px;
+    height: 300px;
+}
+
+.caixa{
+    width: 420px;
+    color: white;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px    #623a97, 0 0 20px #623a97, 0 0 28px #623a97;
+}
+
+.h1-L{
+    font-size: 36px;
+    color: white;
+    background-color: rgba(58, 58, 58, 0);
+    text-align: center;
+}
+
+
+.caixa .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8F36FF;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.caixa .esqueceu-senha-L{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5;
+    margin: -15px 0 15px;
+}
+
+.esqueceu-senha-L a{
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.esqueceu-senha-L a:hover{
+    color: #a35efc;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.caixa .btn-login{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 12px 0px;
+    color: white;
+    text-decoration: none;
+    background-color: #8F36FF;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.caixa .btn-login:hover{
+    background-color: #4A2C72;
+    transition: 0.5s;
+    color: white;
+}
+
+.caixa .register-link{
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+

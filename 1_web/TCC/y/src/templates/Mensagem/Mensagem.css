@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-mensagem {
+    flex: 1;
+    padding: 20px;
+    background: url('../../assets/roxo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mensagem-bordinha {
+    background-color: #2D1E36;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-mensagem {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-mensagem th,
+.table-mensagem td {
+    padding: 12px;
+    text-align: left;
+}
+
+.button-mensagem {
+    border-radius: 10px;
+    background-color: #4A1259;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button-mensagem:hover {
+    background-color: #4a2f55;
+    transition: 0.3s;
+}

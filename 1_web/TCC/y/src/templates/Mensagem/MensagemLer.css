@@ -1,0 +1,168 @@
+/* remove overflow horizontal */
+html, body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+/* corrige cálculos de largura */
+* {
+
+    box-sizing: border-box;
+
+}
+
+/* layout com sidebar */
+.layout {
+
+    display: flex;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+}
+
+/* container principal */
+.container-mensagem {
+
+    flex: 1;
+
+    padding: 20px;
+
+    background: url('../../assets/roxo.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+/* caixa principal */
+.mensagem-bordinha {
+
+    background-color: #2D1E36;
+
+    color: white;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+    width: 100%;
+
+}
+
+/* form */
+.form-mensagem {
+
+    width: 100%;
+
+}
+
+/* linha do form */
+.form-row {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+/* grupo */
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 15px;
+
+    flex: 1;
+
+}
+
+/* inputs */
+.form-group input,
+.form-group textarea {
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    border: none;
+
+    margin-top: 5px;
+
+}
+
+/* botões */
+.form-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 20px;
+
+}
+
+/* botão ativar */
+.btn-mensagem-ativar {
+
+    border-radius: 10px;
+
+    background-color: #4A1259;
+
+    font-size: 16px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+.btn-mensagem-ativar:hover {
+
+    background-color: #4a2f55;
+
+}
+
+/* botão inativar */
+.btn-mensagem-inativar {
+
+    border-radius: 10px;
+
+    background-color: #b30c60;
+
+    font-size: 16px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+.btn-mensagem-inativar:hover {
+
+    background-color: #7c394d;
+
+}

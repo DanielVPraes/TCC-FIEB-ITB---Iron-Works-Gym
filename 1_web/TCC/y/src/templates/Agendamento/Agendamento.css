@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container-agendamento {
+    flex: 1;
+    padding: 20px;
+    background: url('../../assets/roxo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.agendamento-bordinha {
+    background-color: #2D1E36;
+    color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-agendamento {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 900px;
+}
+
+.table-agendamento th {
+    padding: 12px 10px;
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.table-agendamento td {
+    padding: 10px;
+}
+
+.btn-agendamento-ativar {
+    margin-right: 6px;
+    border-radius: 8px;
+    background-color: #4A1259;
+    font-size: 14px;
+    padding: 6px 14px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-agendamento-ativar:hover {
+    background-color: #4a2f55;
+}
+
+.btn-agendamento-inativar {
+    border-radius: 8px;
+    background-color: #b30c60;
+    font-size: 14px;
+    padding: 6px 14px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-agendamento-inativar:hover {
+    background-color: #7c394d;
+}
